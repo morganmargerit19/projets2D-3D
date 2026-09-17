@@ -31,6 +31,13 @@ for page in pdf:
 pngs=sorted((OUT/'04-controles-et-notice/controle-geometrie').glob('*.png'));assert len(pngs)==5
 for p in pngs:
     with Image.open(p) as im:assert im.size==(1600,1200)
-result=dict(originaux_conserves_identiques_git=checked,controles_exports=checks,pdf={'pages':4,'format_mm':[420,297],'echelles':[75,75,75,30]},vues_techniques=5,rendus_photorealistes_finaux=0,skp_presents=[str(p.relative_to(OUT)) for p in OUT.rglob('*.skp')],sketchup_execute=False,raccordement_physique_valide=False)
+consultation=HERE/'consultation'
+photos=sorted(consultation.glob('IMG*.jpg'));assert len(photos)==10
+for p in photos:
+    with Image.open(p) as im:assert max(im.size)==3000;im.verify()
+pages=sorted(consultation.glob('*.png'));assert len(pages)==24
+for p in pages:
+    with Image.open(p) as im:im.verify()
+result=dict(originaux_conserves_identiques_git=checked,controles_exports=checks,pdf={'pages':4,'format_mm':[420,297],'echelles':[75,75,75,30]},photos_consultation_decodees=10,pages_consultation_decodees=24,vues_techniques=5,rendus_photorealistes_finaux=0,skp_presents=[str(p.relative_to(OUT)) for p in OUT.rglob('*.skp')],sketchup_execute=False,raccordement_physique_valide=False)
 (OUT/'04-controles-et-notice/verification-locale.json').write_text(json.dumps(result,indent=2,ensure_ascii=False))
 print('19 originaux identiques au commit de depart. 2 DXF rouverts, correspondance exacte aux donnees communes. PDF A3 et 5 controles techniques verifies. SKP et maquette de site non valides.')

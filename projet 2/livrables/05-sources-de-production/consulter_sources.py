@@ -13,9 +13,13 @@ for p in sorted(ROOT.glob('*.pdf')):
     (DEST/(p.stem+'.txt')).write_text('\n'.join(texts))
 for p in sorted(ROOT.glob('*.HEIC')):
     dest=DEST/(p.stem+'.jpg')
-    if dest.exists():dest.unlink()
-    subprocess.run(['heif-convert',str(p),str(dest)],check=True,capture_output=True)
-    with Image.open(dest) as image:
+    temporary=DEST/(p.stem+'.conversion.jpg')
+    if temporary.exists():temporary.unlink()
+    subprocess.run(['heif-convert',str(p),str(temporary)],check=True,capture_output=True)
+    with Image.open(temporary) as image:
         image=ImageOps.exif_transpose(image).convert('RGB');image.thumbnail((3000,3000))
-        image.save(dest,quality=88,optimize=True)
+        image.save(DEST/(p.stem+'.validated.jpg'),quality=88,optimize=True)
+    with Image.open(DEST/(p.stem+'.validated.jpg')) as check:check.verify()
+    (DEST/(p.stem+'.validated.jpg')).replace(dest)
+    temporary.unlink()
 print('24 pages PDF et 10 HEIC convertis. Originaux intacts.')
