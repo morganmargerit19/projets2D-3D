@@ -1,0 +1,83 @@
+{
+  "originaux_conserves_identiques_git": [
+    "IMG_9313.HEIC",
+    "IMG_9299.HEIC",
+    "IMG_9308.HEIC",
+    "Terrasse de gauche_page-0001.jpg",
+    "IMG_9307.HEIC",
+    "vue aérienne.jpg",
+    "Terrasse de droite.pdf",
+    "IMG_9303.HEIC",
+    "IMG_9298.HEIC",
+    "IMG_9305.HEIC",
+    "Bordure maison_page-0001.jpg",
+    "Zone escalier_page-0001.jpg",
+    "Terrasse de droite_page-0001.jpg",
+    "IMG_9311.HEIC",
+    "Bordure maison.pdf",
+    "IMG_9312.HEIC",
+    "Terrasse de gauche.pdf",
+    "Zone escalier.pdf",
+    "IMG_9302.HEIC"
+  ],
+  "controles_exports": [
+    {
+      "export": "DXF 2D",
+      "zone": "Bordure maison",
+      "erreur_serialisation_m": 0.0
+    },
+    {
+      "export": "DXF 2D",
+      "zone": "Terrasse de droite",
+      "erreur_serialisation_m": 0.0
+    },
+    {
+      "export": "DXF 2D",
+      "zone": "Terrasse de gauche",
+      "erreur_serialisation_m": 0.0
+    },
+    {
+      "export": "DXF 2D",
+      "zone": "Zone escalier",
+      "erreur_serialisation_m": 0.0
+    },
+    {
+      "export": "DXF 3D",
+      "zone": "Bordure maison",
+      "erreur_serialisation_m": 0.0
+    },
+    {
+      "export": "DXF 3D",
+      "zone": "Terrasse de droite",
+      "erreur_serialisation_m": 0.0
+    },
+    {
+      "export": "DXF 3D",
+      "zone": "Terrasse de gauche",
+      "erreur_serialisation_m": 0.0
+    },
+    {
+      "export": "DXF 3D",
+      "zone": "Zone escalier",
+      "erreur_serialisation_m": 0.0
+    }
+  ],
+  "pdf": {
+    "pages": 4,
+    "format_mm": [
+      420,
+      297
+    ],
+    "echelles": [
+      75,
+      75,
+      75,
+      30
+    ]
+  },
+  "vues_techniques": 5,
+  "rendus_photorealistes_finaux": 0,
+  "skp_presents": [],
+  "sketchup_execute": false,
+  "raccordement_physique_valide": false
+}

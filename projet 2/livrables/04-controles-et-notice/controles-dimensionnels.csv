@@ -1,0 +1,174 @@
+zone,element,grandeur,source,reference,modele,ecart,incertitude
+Bordure maison,C01,longueur_XY,Bordure maison.pdf p.2,2.86,2.860247,0.000247,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C01,longueur_3D,Bordure maison.pdf p.4,2.86,2.861663,0.001663,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C02,longueur_XY,Bordure maison.pdf p.2,0.0,0.000878,0.000878,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C02,longueur_3D,Bordure maison.pdf p.4,0.0,0.000878,0.000878,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C03,longueur_XY,Bordure maison.pdf p.2,0.0,0.000399,0.000399,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C03,longueur_3D,Bordure maison.pdf p.4,0.0,0.000399,0.000399,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C04,longueur_XY,Bordure maison.pdf p.2,2.19,2.191345,0.001345,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C04,longueur_3D,Bordure maison.pdf p.4,2.2,2.195198,-0.004802,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C05,longueur_XY,Bordure maison.pdf p.2,3.83,3.830608,0.000608,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C05,longueur_3D,Bordure maison.pdf p.4,3.83,3.834835,0.004835,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C06,longueur_XY,Bordure maison.pdf p.2,1.6,1.595207,-0.004793,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C06,longueur_3D,Bordure maison.pdf p.4,1.6,1.596335,-0.003665,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C07,longueur_XY,Bordure maison.pdf p.2,4.56,4.555001,-0.004999,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C07,longueur_3D,Bordure maison.pdf p.4,4.56,4.555177,-0.004823,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C08,longueur_XY,Bordure maison.pdf p.2,3.91,3.907732,-0.002268,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C08,longueur_3D,Bordure maison.pdf p.4,3.91,3.908768,-0.001232,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C09,longueur_XY,Bordure maison.pdf p.2,1.31,1.314094,0.004094,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C09,longueur_3D,Bordure maison.pdf p.4,1.35,1.352495,0.002495,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C10,longueur_XY,Bordure maison.pdf p.2,0.53,0.528009,-0.001991,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,C10,longueur_3D,Bordure maison.pdf p.4,0.53,0.532629,0.002629,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Bordure maison,total,parcours_XY,Bordure maison.pdf p.1 ou 3,20.78,20.78352,0.00352,Arrondi publication; precision du releve non fournie
+Bordure maison,total,parcours_3D,Bordure maison.pdf p.1 ou 3,20.84,20.838376,-0.001624,Arrondi publication; precision du releve non fournie
+Terrasse de droite,C01,longueur_XY,Terrasse de droite.pdf p.2,0.84,0.842855,0.002855,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C01,longueur_3D,Terrasse de droite.pdf p.4,0.84,0.842855,0.002855,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C02,longueur_XY,Terrasse de droite.pdf p.2,0.67,0.667098,-0.002902,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C02,longueur_3D,Terrasse de droite.pdf p.4,0.67,0.667098,-0.002902,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C03,longueur_XY,Terrasse de droite.pdf p.2,3.55,3.546369,-0.003631,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C03,longueur_3D,Terrasse de droite.pdf p.4,3.55,3.546595,-0.003405,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C04,longueur_XY,Terrasse de droite.pdf p.2,0.53,0.529819,-0.000181,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C04,longueur_3D,Terrasse de droite.pdf p.4,0.53,0.529913,-8.7e-05,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C05,longueur_XY,Terrasse de droite.pdf p.2,2.82,2.819203,-0.000797,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C05,longueur_3D,Terrasse de droite.pdf p.4,2.82,2.819646,-0.000354,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C06,longueur_XY,Terrasse de droite.pdf p.2,2.59,2.589955,-4.5e-05,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C06,longueur_3D,Terrasse de droite.pdf p.4,2.59,2.59065,0.00065,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C07,longueur_XY,Terrasse de droite.pdf p.2,0.46,0.457074,-0.002926,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C07,longueur_3D,Terrasse de droite.pdf p.4,0.46,0.457512,-0.002488,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C08,longueur_XY,Terrasse de droite.pdf p.2,2.15,2.146179,-0.003821,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C08,longueur_3D,Terrasse de droite.pdf p.4,2.16,2.163096,0.003096,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C09,longueur_XY,Terrasse de droite.pdf p.2,4.92,4.915726,-0.004274,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C09,longueur_3D,Terrasse de droite.pdf p.4,4.92,4.917719,-0.002281,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C10,longueur_XY,Terrasse de droite.pdf p.2,2.32,2.318201,-0.001799,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C10,longueur_3D,Terrasse de droite.pdf p.4,2.32,2.321305,0.001305,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C11,longueur_XY,Terrasse de droite.pdf p.2,1.44,1.443526,0.003526,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C11,longueur_3D,Terrasse de droite.pdf p.4,1.44,1.444392,0.004392,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C12,longueur_XY,Terrasse de droite.pdf p.2,1.15,1.149107,-0.000893,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C12,longueur_3D,Terrasse de droite.pdf p.4,1.15,1.149281,-0.000719,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C13,longueur_XY,Terrasse de droite.pdf p.2,0.12,0.117631,-0.002369,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C13,longueur_3D,Terrasse de droite.pdf p.4,0.12,0.119319,-0.000681,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C14,longueur_XY,Terrasse de droite.pdf p.2,0.76,0.756662,-0.003338,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C14,longueur_3D,Terrasse de droite.pdf p.4,0.76,0.761996,0.001996,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C15,longueur_XY,Terrasse de droite.pdf p.2,1.62,1.618364,-0.001636,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C15,longueur_3D,Terrasse de droite.pdf p.4,1.62,1.618487,-0.001513,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C16,longueur_XY,Terrasse de droite.pdf p.2,0.91,0.906329,-0.003671,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C16,longueur_3D,Terrasse de droite.pdf p.4,0.91,0.907707,-0.002293,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C17,longueur_XY,Terrasse de droite.pdf p.2,0.5,0.500427,0.000427,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C17,longueur_3D,Terrasse de droite.pdf p.4,0.5,0.500527,0.000527,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C18,longueur_XY,Terrasse de droite.pdf p.2,1.5,1.498384,-0.001616,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C18,longueur_3D,Terrasse de droite.pdf p.4,1.5,1.498685,-0.001315,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C19,longueur_XY,Terrasse de droite.pdf p.2,0.51,0.514533,0.004533,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C19,longueur_3D,Terrasse de droite.pdf p.4,0.52,0.514922,-0.005078,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C20,longueur_XY,Terrasse de droite.pdf p.2,0.93,0.925702,-0.004298,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C20,longueur_3D,Terrasse de droite.pdf p.4,0.93,0.928345,-0.001655,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C21,longueur_XY,Terrasse de droite.pdf p.2,0.0,0.000809,0.000809,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C21,longueur_3D,Terrasse de droite.pdf p.4,0.0,0.000809,0.000809,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C22,longueur_XY,Terrasse de droite.pdf p.2,1.63,1.633391,0.003391,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C22,longueur_3D,Terrasse de droite.pdf p.4,1.63,1.634156,0.004156,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C23,longueur_XY,Terrasse de droite.pdf p.2,2.6,2.595804,-0.004196,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,C23,longueur_3D,Terrasse de droite.pdf p.4,2.6,2.595804,-0.004196,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de droite,total,parcours_XY,Terrasse de droite.pdf p.1 ou 3,34.49,34.493148,0.003148,Arrondi publication; precision du releve non fournie
+Terrasse de droite,total,parcours_3D,Terrasse de droite.pdf p.1 ou 3,34.53,34.530817,0.000817,Arrondi publication; precision du releve non fournie
+Terrasse de droite,total,surface_projetee,Terrasse de droite.pdf p.1 ou 3,37.89,37.889069,-0.000931,Arrondi publication; precision du releve non fournie
+Terrasse de gauche,C01,longueur_XY,Terrasse de gauche.pdf p.2,3.04,3.042882,0.002882,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C01,longueur_3D,Terrasse de gauche.pdf p.4,3.04,3.043687,0.003687,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C02,longueur_XY,Terrasse de gauche.pdf p.2,4.14,4.144135,0.004135,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C02,longueur_3D,Terrasse de gauche.pdf p.4,4.15,4.145342,-0.004658,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C03,longueur_XY,Terrasse de gauche.pdf p.2,0.76,0.762419,0.002419,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C03,longueur_3D,Terrasse de gauche.pdf p.4,0.76,0.762419,0.002419,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C04,longueur_XY,Terrasse de gauche.pdf p.2,0.9,0.902999,0.002999,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C04,longueur_3D,Terrasse de gauche.pdf p.4,0.92,0.915373,-0.004627,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C05,longueur_XY,Terrasse de gauche.pdf p.2,0.9,0.89709,-0.00291,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C05,longueur_3D,Terrasse de gauche.pdf p.4,0.9,0.897146,-0.002854,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C06,longueur_XY,Terrasse de gauche.pdf p.2,2.08,2.084146,0.004146,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C06,longueur_3D,Terrasse de gauche.pdf p.4,2.09,2.085681,-0.004319,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C07,longueur_XY,Terrasse de gauche.pdf p.2,1.66,1.659478,-0.000522,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C07,longueur_3D,Terrasse de gauche.pdf p.4,1.66,1.659508,-0.000492,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C08,longueur_XY,Terrasse de gauche.pdf p.2,0.87,0.873748,0.003748,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C08,longueur_3D,Terrasse de gauche.pdf p.4,0.87,0.874262,0.004262,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C09,longueur_XY,Terrasse de gauche.pdf p.2,0.44,0.443145,0.003145,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C09,longueur_3D,Terrasse de gauche.pdf p.4,0.44,0.443597,0.003597,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C10,longueur_XY,Terrasse de gauche.pdf p.2,1.53,1.533121,0.003121,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C10,longueur_3D,Terrasse de gauche.pdf p.4,1.53,1.533414,0.003414,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C11,longueur_XY,Terrasse de gauche.pdf p.2,0.48,0.478514,-0.001486,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C11,longueur_3D,Terrasse de gauche.pdf p.4,0.48,0.478514,-0.001486,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C12,longueur_XY,Terrasse de gauche.pdf p.2,0.92,0.924704,0.004704,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C12,longueur_3D,Terrasse de gauche.pdf p.4,0.93,0.92519,-0.00481,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C13,longueur_XY,Terrasse de gauche.pdf p.2,1.58,1.580515,0.000515,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C13,longueur_3D,Terrasse de gauche.pdf p.4,1.58,1.580515,0.000515,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C14,longueur_XY,Terrasse de gauche.pdf p.2,2.59,2.590279,0.000279,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C14,longueur_3D,Terrasse de gauche.pdf p.4,2.59,2.591225,0.001225,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C15,longueur_XY,Terrasse de gauche.pdf p.2,0.84,0.835027,-0.004973,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C15,longueur_3D,Terrasse de gauche.pdf p.4,0.84,0.835266,-0.004734,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C16,longueur_XY,Terrasse de gauche.pdf p.2,0.49,0.490116,0.000116,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C16,longueur_3D,Terrasse de gauche.pdf p.4,0.49,0.490218,0.000218,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C17,longueur_XY,Terrasse de gauche.pdf p.2,0.0,0.000123,0.000123,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C17,longueur_3D,Terrasse de gauche.pdf p.4,0.0,0.000123,0.000123,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C18,longueur_XY,Terrasse de gauche.pdf p.2,3.91,3.912563,0.002563,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C18,longueur_3D,Terrasse de gauche.pdf p.4,3.91,3.912678,0.002678,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C19,longueur_XY,Terrasse de gauche.pdf p.2,0.72,0.716446,-0.003554,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C19,longueur_3D,Terrasse de gauche.pdf p.4,0.72,0.718188,-0.001812,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C20,longueur_XY,Terrasse de gauche.pdf p.2,0.0,0.003897,0.003897,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C20,longueur_3D,Terrasse de gauche.pdf p.4,0.0,0.003897,0.003897,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C21,longueur_XY,Terrasse de gauche.pdf p.2,3.54,3.544045,0.004045,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C21,longueur_3D,Terrasse de gauche.pdf p.4,3.54,3.544059,0.004059,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C22,longueur_XY,Terrasse de gauche.pdf p.2,4.06,4.058589,-0.001411,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C22,longueur_3D,Terrasse de gauche.pdf p.4,4.06,4.059033,-0.000967,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C23,longueur_XY,Terrasse de gauche.pdf p.2,0.79,0.79461,0.00461,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C23,longueur_3D,Terrasse de gauche.pdf p.4,0.79,0.794862,0.004862,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C24,longueur_XY,Terrasse de gauche.pdf p.2,3.21,3.211911,0.001911,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C24,longueur_3D,Terrasse de gauche.pdf p.4,3.29,3.287304,-0.002696,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C25,longueur_XY,Terrasse de gauche.pdf p.2,2.24,2.236062,-0.003938,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C25,longueur_3D,Terrasse de gauche.pdf p.4,2.24,2.236151,-0.003849,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C26,longueur_XY,Terrasse de gauche.pdf p.2,2.12,2.116715,-0.003285,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C26,longueur_3D,Terrasse de gauche.pdf p.4,2.12,2.117093,-0.002907,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C27,longueur_XY,Terrasse de gauche.pdf p.2,0.33,0.330892,0.000892,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C27,longueur_3D,Terrasse de gauche.pdf p.4,0.33,0.331043,0.001043,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C28,longueur_XY,Terrasse de gauche.pdf p.2,3.05,3.049987,-1.3e-05,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C28,longueur_3D,Terrasse de gauche.pdf p.4,3.05,3.050003,3e-06,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C29,longueur_XY,Terrasse de gauche.pdf p.2,0.32,0.32469,0.00469,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,C29,longueur_3D,Terrasse de gauche.pdf p.4,0.33,0.325305,-0.004695,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Terrasse de gauche,total,parcours_XY,Terrasse de gauche.pdf p.1 ou 3,47.54,47.542847,0.002847,Arrondi publication; precision du releve non fournie
+Terrasse de gauche,total,parcours_3D,Terrasse de gauche.pdf p.1 ou 3,47.64,47.641096,0.001096,Arrondi publication; precision du releve non fournie
+Terrasse de gauche,total,surface_projetee,Terrasse de gauche.pdf p.1 ou 3,46.18,46.175509,-0.004491,Arrondi publication; precision du releve non fournie
+Zone escalier,C01,longueur_XY,Zone escalier.pdf p.2,1.2,1.2,-0.0,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C01,longueur_3D,Zone escalier.pdf p.4,1.21,1.214948,0.004948,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C02,longueur_XY,Zone escalier.pdf p.2,1.22,1.224279,0.004279,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C02,longueur_3D,Zone escalier.pdf p.4,1.24,1.243889,0.003889,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C03,longueur_XY,Zone escalier.pdf p.2,0.08,0.081671,0.001671,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C03,longueur_3D,Zone escalier.pdf p.4,0.17,0.170793,0.000793,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C04,longueur_XY,Zone escalier.pdf p.2,2.37,2.36581,-0.00419,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C04,longueur_3D,Zone escalier.pdf p.4,2.37,2.366571,-0.003429,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C05,longueur_XY,Zone escalier.pdf p.2,0.46,0.462424,0.002424,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C05,longueur_3D,Zone escalier.pdf p.4,0.47,0.467692,-0.002308,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C06,longueur_XY,Zone escalier.pdf p.2,0.11,0.111701,0.001701,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C06,longueur_3D,Zone escalier.pdf p.4,0.54,0.541643,0.001643,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C07,longueur_XY,Zone escalier.pdf p.2,1.03,1.028095,-0.001905,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C07,longueur_3D,Zone escalier.pdf p.4,1.04,1.042055,0.002055,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C08,longueur_XY,Zone escalier.pdf p.2,0.71,0.70569,-0.00431,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C08,longueur_3D,Zone escalier.pdf p.4,0.71,0.711406,0.001406,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C09,longueur_XY,Zone escalier.pdf p.2,0.03,0.02943,-0.00057,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C09,longueur_3D,Zone escalier.pdf p.4,0.07,0.066829,-0.003171,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C10,longueur_XY,Zone escalier.pdf p.2,2.4,2.398683,-0.001317,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C10,longueur_3D,Zone escalier.pdf p.4,2.4,2.398704,-0.001296,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C11,longueur_XY,Zone escalier.pdf p.2,1.47,1.471229,0.001229,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C11,longueur_3D,Zone escalier.pdf p.4,1.47,1.472452,0.002452,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C12,longueur_XY,Zone escalier.pdf p.2,0.73,0.727155,-0.002845,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C12,longueur_3D,Zone escalier.pdf p.4,0.74,0.73699,-0.00301,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C13,longueur_XY,Zone escalier.pdf p.2,0.18,0.176661,-0.003339,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C13,longueur_3D,Zone escalier.pdf p.4,0.21,0.213563,0.003563,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C14,longueur_XY,Zone escalier.pdf p.2,1.11,1.109354,-0.000646,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C14,longueur_3D,Zone escalier.pdf p.4,1.11,1.112235,0.002235,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C15,longueur_XY,Zone escalier.pdf p.2,0.13,0.126731,-0.003269,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C15,longueur_3D,Zone escalier.pdf p.4,0.2,0.196369,-0.003631,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C16,longueur_XY,Zone escalier.pdf p.2,1.08,1.084139,0.004139,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C16,longueur_3D,Zone escalier.pdf p.4,1.09,1.087868,-0.002132,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C17,longueur_XY,Zone escalier.pdf p.2,0.1,0.099939,-6.1e-05,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C17,longueur_3D,Zone escalier.pdf p.4,0.16,0.163975,0.003975,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C18,longueur_XY,Zone escalier.pdf p.2,1.01,1.010033,3.3e-05,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C18,longueur_3D,Zone escalier.pdf p.4,1.01,1.010479,0.000479,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C19,longueur_XY,Zone escalier.pdf p.2,0.27,0.269205,-0.000795,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,C19,longueur_3D,Zone escalier.pdf p.4,0.93,0.929823,-0.000177,Cotes et Z arrondis au cm; precision instrumentale inconnue; XY derive du PDF
+Zone escalier,total,parcours_XY,Zone escalier.pdf p.1 ou 3,15.68,15.682228,0.002228,Arrondi publication; precision du releve non fournie
+Zone escalier,total,parcours_3D,Zone escalier.pdf p.1 ou 3,17.14,17.148283,0.008283,Arrondi publication; precision du releve non fournie
+Zone escalier,total,surface_projetee,Zone escalier.pdf p.1 ou 3,8.59,8.588035,-0.001965,Arrondi publication; precision du releve non fournie
