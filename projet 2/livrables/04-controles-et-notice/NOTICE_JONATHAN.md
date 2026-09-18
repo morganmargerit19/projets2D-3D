@@ -1,73 +1,53 @@
-# NOKOD GARDENS · MARZET · Projet 2
+# NOKOD GARDENS — Projet 2 — Remise DAE et visualisations
 
-**Remise partielle de production — 17 septembre 2026. Mission contractuelle non terminée.**
+Mise à jour du 17 septembre 2026. Deux fichiers COLLADA réellement produits et réimportés dans Blender, et cinq visualisations photographiques produites. **La reconstruction complète du site n'est pas achevée.** Les DAE contiennent les quatre relevés indépendants, pas les bâtiments et aménagements assemblés. Les cinq images sont des interprétations des photographies, pas des rendus issus de ces DAE.
 
-Cette remise contient les quatre relevés reconstruits, leur plan de contrôle et leur représentation 3D dans des repères locaux indépendants. Elle ne contient pas encore une maquette du site assemblée, deux fichiers SKP validés ou cinq images photoréalistes finales.
+## Fichiers à utiliser
 
-## Ce qui est disponible
+- `01-plan-2d/NOKOD_Projet_2_Plan_2D.dae` : contours et trois surfaces projetées éditables à Z = 0, groupes par relevé, cotes et annotations en géométrie vectorielle. Les cotes ne sont pas des objets de cotation SketchUp associatifs.
+- `02-modele-3d/NOKOD_Projet_2_Modele_3D.dae` : contours conservant les niveaux locaux, trois surfaces triangulées éditables. Ces surfaces interpolent les points de bord : elles ne constituent ni un terrain mesuré à l'intérieur, ni les marches reconstruites.
+- `01-plan-2d/NOKOD_Projet_2_Releves_2D_CONTROLE.pdf` : quatre feuilles de contrôle A3, avec cotes, niveaux locaux et surfaces. Ce PDF demeure la référence lisible pour toutes les valeurs.
+- `03-rendus/01_...png` à `05_...png` : cinq visualisations photoréalistes interprétatives du site photographié, sans conception nouvelle. Leurs cadrages suivent les photos sources.
 
-| Fichier | Usage | Statut |
+La bordure de maison est un relevé ouvert : aucune face de bâtiment n'a été inventée pour le fermer.
+
+## Importer dans SketchUp Desktop
+
+1. Créer un modèle vide. Choisir **Fichier > Importer**, type **COLLADA (*.dae)**, puis le fichier 2D ou 3D.
+2. Dans les options, conserver **Valider le fichier COLLADA**. La fusion des faces coplanaires peut simplifier le plan ; la désactiver pour conserver toute la triangulation de travail.
+3. Faire **Zoom étendu**. Le modèle contient quatre ensembles séparés volontairement : ce n'est pas l'implantation du site. Les unités du DAE sont les mètres, à l'échelle réelle 1:1, axe vertical Z.
+4. En 2D, choisir **Caméra > Projection parallèle**, puis la vue standard **Dessus**. En 3D, utiliser Orbite.
+5. Contrôler le premier segment de la bordure, environ **2,86 m**. Ne pas redimensionner chaque relevé pour l'aligner aux autres.
+6. Enregistrer sous `NOKOD_Projet_2_Plan_2D.skp` ou `NOKOD_Projet_2_Modele_3D.skp`, puis fermer et rouvrir le fichier.
+
+Cette procédure suit l'[aide officielle SketchUp sur COLLADA](https://help.sketchup.com/en/sketchup/importing-and-exporting-collada-files). L'importation réelle dans SketchUp reste non testée ici ; la réimportation COLLADA a été exécutée dans Blender 4.5.3. Aucun SKP natif n'est livré.
+
+## Modifier et organiser
+
+Les nœuds de premier niveau portent les noms des quatre zones et la mention `REPERE_LOCAL_NON_RACCORDE`. Développer leur hiérarchie dans Structure, entrer dans le groupe/composant à modifier et utiliser les outils de faces et d'arêtes habituels. Les surfaces portent `SURFACE_PROJETEE` en 2D ou `SURFACE_INTERPOLEE_NON_TERRAIN` en 3D. Les objets `CONTOUR_SOURCE` conservent les sommets de référence. En 3D, les rubans de 5 mm sont seulement des aides d'affichage, pas des bordures construites.
+
+Après import, créer les balises Bordure, Terrasse droite, Terrasse gauche, Escalier et Annotations ; les affecter aux groupes, laisser la géométrie brute sur Untagged. Les balises et scènes SketchUp ne sont pas garanties par COLLADA. Masquer les annotations pour travailler sur les contours. Ne pas éclater tous les groupes ensemble.
+
+Les translations de présentation sont Bordure (0,0,0), Droite (25,0,0), Gauche (0,20,0), Escalier (25,20,0), en mètres. Les quatre origines et zéros altimétriques restent locaux. Aucun nord n'est affirmé.
+
+## Cinq images et portée réelle
+
+| Image | Source | Résolution réelle |
 |---|---|---|
-| `01-plan-2d/NOKOD_Projet_2_Releves_2D_CONTROLE.pdf` | Quatre feuilles A3, contours, cotes, niveaux locaux et surfaces projetées | Produit et inspecté |
-| `01-plan-2d/Releves_2D_non_raccordes.dxf` | Géométrie 2D éditable, mètres, Z = 0, disposition éclatée | Produit, rouvert et audité avec ezdxf ; import SketchUp non testé |
-| `02-modele-3d/Releves_3D_non_raccordes.dxf` | Polylignes 3D conservant les Z locaux | Produit, rouvert et audité avec ezdxf ; import SketchUp non testé |
-| `02-modele-3d/NOKOD_Projet_2_Releves_NON_RACCORDES.blend` | Relevés 3D, collections séparées et cinq caméras de contrôle | Produit ; représentation technique, pas maquette paysagère achevée |
-| `05-sources-de-production/generer_sketchup.rb` + `releves.json` | Génération native dans SketchUp Desktop | Script préparé, **non exécuté dans SketchUp**, non certifié compatible avec la version exacte de Jonathan |
-| `04-controles-et-notice/controle-geometrie/` | Cinq vues techniques à 1600 × 1200 pixels | Contrôles géométriques, **pas les cinq rendus finaux** |
-| `03-rendus/STATUT.md` | État de la livraison des images finales | Aucun rendu final livré |
+| 01 Vue ensemble jardin | IMG_9308.HEIC | 1448 × 1086 |
+| 02 Terrasse repas | IMG_9298.HEIC | 1086 × 1449 |
+| 03 Terrasse côté véranda | IMG_9305.HEIC | 1448 × 1086 |
+| 04 Escalier seuil maison | IMG_9312.HEIC | 1086 × 1449 |
+| 05 Escalier véranda vers bassin | IMG_9313.HEIC | 1448 × 1086 |
 
-## Obtenir les deux bases SKP dans SketchUp Desktop
+Génération intégrée ImageGen guidée par les photographies de consultation, harmonisation de lumière et retrait de quelques objets provisoires (sacs, seau, tuyaux, doigt du photographe). Aucun agrandissement n'a été appliqué. Le grand côté demandé de 3840 pixels n'a pas été obtenu. Les modèles génératifs modifient des détails de texture, de joints, de feuillage et parfois de perspective : ces images ne prouvent pas une fidélité dimensionnelle. Elles ne sont pas associées à des caméras calibrées du modèle et ne satisfont donc pas l'exigence initiale de cinq rendus de la même maquette.
 
-Le script construit de vraies arêtes, des faces 2D, des groupes, des balises, des cotes et des scènes, puis appelle la sauvegarde native de SketchUp. Il ne renomme pas un format intermédiaire. Il ne résout pas le raccordement des relevés.
+Les prompts exacts et les références sont dans `05-sources-de-production/prompts-visualisations.json`. Le contrôle visuel détaillé est dans `CONTROLE_VISUALISATIONS.md`.
 
-1. Télécharger la branche complète et décompresser le ZIP. Conserver l'organisation des dossiers : le script lit `releves.json` à côté de lui.
-2. Ouvrir **un nouveau modèle vide** dans SketchUp Desktop. Supprimer le personnage du modèle de départ. Le script refuse d'intervenir si le modèle contient déjà des objets.
-3. Ouvrir la **console Ruby**, puis coller :
+## Contrôles et limites
 
-```ruby
-f = UI.openpanel('Choisir generer_sketchup.rb', '', '*.rb'); load f if f
-```
+Les deux DAE ont été réimportés : unités, Z, sommets et surfaces contrôlés ; rapport `verification-collada.json`. L'écart numérique maximal des sommets après transfert est inférieur à 0,01 mm ; il mesure uniquement la conversion informatique, **pas la précision du relevé réel**. Les valeurs documentaires sont arrondies au centimètre. Les surfaces projetées 2D et 3D coïncident après transfert.
 
-4. Choisir `05-sources-de-production/generer_sketchup.rb`, puis **2D** dans la boîte de dialogue. Si la génération réussit, le fichier `01-plan-2d/NOKOD_Projet_2_Plan_2D.skp` est enregistré.
-5. Ouvrir **un autre modèle vide**, relancer la même commande et choisir **3D**. Le fichier `02-modele-3d/NOKOD_Projet_2_Modele_3D.skp` est enregistré si la génération réussit.
-6. Fermer et **rouvrir chacun des deux SKP**. Contrôler les unités, les quatre groupes, les scènes et les points ci-dessous. Les noms des fichiers ne signifient pas que la mission finale est terminée : les modèles restent des bases NON RACCORDÉES.
+L'absence de repérage commun a été confirmée par l'utilisateur. Le bâti, les seuils communs, l'assemblage des quatre zones et les marches ne sont pas reconstruits de manière validée. Les photos et la vue aérienne donnent des relations visuelles, pas les coordonnées nécessaires à leur certification. Les noms des fichiers ne signifient pas que ces limites sont résolues.
 
-Aucun fichier existant n'est écrasé par le script. En cas d'erreur, conserver le message de la console avec la version et le système d'exploitation. Aucun succès dans SketchUp n'a été vérifié à distance dans cette remise.
-
-Alternative : importer le DXF correspondant, avec l'unité **mètre**, si l'édition installée le permet ; contrôler les dimensions puis enregistrer sous SKP. Cette méthode peut perdre certaines annotations ou propriétés selon l'importeur et n'a pas été testée ici.
-
-## Naviguer et modifier
-
-- Les scènes donnent une vue de dessus en projection parallèle, une axonométrie pour la base 3D et une vue de chaque relevé.
-- Dans **Structure**, choisir un groupe nommé `Bordure maison`, `Terrasse de droite`, `Terrasse de gauche` ou `Zone escalier`. Double-cliquer pour modifier sa géométrie.
-- Dans **Balises**, afficher ou masquer les catégories 01 à 04, `90_Annotations` et `91_Cotes`. Les arêtes et faces brutes restent sur Untagged.
-- Les contours sont disposés à distance les uns des autres pour être lisibles. **Ne pas lire les distances entre groupes comme des distances sur le terrain.**
-- Les Z des points sont relatifs à P00 de leur propre relevé. Ne pas aligner les quatre zéros sans rattachement à un même point physique.
-- Modifier les données de référence dans `releves.json`, puis régénérer les exports pour conserver la cohérence 2D/3D. Les valeurs XY sont déduites des PDF, pas des coordonnées brutes MOASURE.
-- Le fichier Blender contient une surface triangulée facultative masquée pour les trois contours fermés. Elle est une interpolation des points de bord, **pas un terrain levé ni une restitution des marches**. Les épaisseurs des tubes et les sphères de contrôle sont des symboles de présentation.
-
-## Contrôles à faire après génération native
-
-1. En 2D, vérifier que les sommets de contour sont tous à Z = 0 ; en 3D, vérifier les Z locaux.
-2. Vérifier, avec le mètre SketchUp, le premier segment de la bordure : environ 2,86 m ; la terrasse gauche doit présenter environ 46,18 m² projetés.
-3. Vérifier les quatre groupes et l'absence de géométrie brute affectée aux balises métier.
-4. Pour l'escalier, retrouver la plage locale de -0,62 à +0,92 m. Elle ne constitue pas un dénivelé connu entre les terrasses.
-5. Vérifier qu'aucune fermeture n'a été inventée pour le relevé ouvert `Bordure maison`.
-6. Contrôler visuellement les annotations dans SketchUp. Leur mise en page ne peut pas être certifiée par le seul examen du script.
-
-Les segments inférieurs à 1 mm peuvent être omis comme arêtes lors de la génération native afin d'éviter les micro-arêtes ; leur présence et leurs valeurs sont conservées dans le JSON, les CSV et les attributs de groupe. Cela concerne des côtés publiés à 0,00 m, pas des détails architecturaux à supprimer arbitrairement.
-
-## Ce qui empêche la remise finale
-
-- Aucun repérage physique des départs de relevés et des points communs n'est disponible. L'utilisateur l'a confirmé pendant la production. Les rotations, translations et décalages Z physiques ne sont donc pas validés.
-- Les longueurs similaires, notamment 3,91 m, ne prouvent pas à elles seules que deux côtés décrivent la même arête.
-- Les contours n'identifient pas toutes les limites entre gravier, dallage, façade et bordure. Les affecter automatiquement à un matériau ou à un mur serait une hypothèse structurante non contrôlée.
-- La vue aérienne ne constitue pas une orthophotographie métrique attestée. Les hauteurs de bâti, dimensions des ouvertures, emprises détaillées du bassin et girons/contremarches ne sont pas cotés dans les sources.
-- Le relevé « Zone escalier » ne décrit pas chaque marche. Il ne faut pas transformer la surface interpolée en escalier final.
-- SketchUp natif n'est pas disponible dans l'environnement de production. Les deux SKP n'y ont été ni créés ni rouverts.
-
-Pour terminer fidèlement : repérer sur une même vue les départs et au moins deux points communs par raccordement, avec un point de niveau commun ; identifier les contours correspondant aux façades et revêtements ; compléter les détails architecturaux et marches qui restent indéterminés. Des exports MOASURE numériques peuvent améliorer les coordonnées, mais ne garantissent pas à eux seuls un repère commun.
-
-## Références techniques du transfert
-
-Le script emploie l'[API native des modèles SketchUp](https://ruby.sketchup.com/Sketchup/Model.html), l'[API de création des entités](https://ruby.sketchup.com/Sketchup/Entities.html) et les [caméras SketchUp](https://ruby.sketchup.com/Sketchup/Camera.html). La présence de ces appels ne remplace pas leur exécution et le contrôle des fichiers dans SketchUp.
+Pour reproduire les DAE : exécuter `exporter_collada.py` avec Blender 4.5.3, puis `verifier_collada.py`. Les scripts et données sont conservés dans `05-sources-de-production`. Le script Ruby antérieur reste une option pour créer des cotations natives ; son exécution dans SketchUp n'a pas été vérifiée.

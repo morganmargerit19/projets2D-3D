@@ -1,11 +1,11 @@
-# Remise partielle — projet MARZET
+# Projet 2 — DAE éditables et cinq visualisations
 
-Lire `04-controles-et-notice/NOTICE_JONATHAN.md` en premier.
+Lire `04-controles-et-notice/NOTICE_JONATHAN.md`.
 
-**Ni les deux SKP natifs validés, ni les cinq rendus photoréalistes finaux ne sont livrés.** Le travail produit est une base de relevés indépendants, avec plan de contrôle et géométrie 3D locale. L'assemblage physique du site reste indéterminé.
+Deux fichiers `.dae` sont désormais livrés dans `01-plan-2d` et `02-modele-3d`, avec géométrie éditable, unités mètres et groupes par zone. Export et réimportation exécutés et contrôlés dans Blender 4.5.3. L'import SketchUp n'a pas été exécuté ici.
 
-L'archive téléchargeable `NOKOD_Projet_2_Remise_partielle.zip` remise dans la conversation contient les 19 originaux rangés et toutes les productions : PDF, DXF 2D/3D, scène Blender, cinq contrôles techniques, copies de consultation, données et scripts.
+Cinq PNG photoréalistes sont livrés dans `03-rendus`. Ce sont des interprétations des photographies, pas des rendus calculés depuis la maquette.
 
-La branche `nokod/projet-2-reconstruction` regroupe les sources rangées, les PDF et DXF de travail, la scène Blender, les cinq vues techniques, les copies de consultation, les scripts, les données et la documentation. Aucune modification de `projet 1` ou de `prompts` n'est prévue. La publication a été reprise après un blocage de la revue automatique lié à la limite d'utilisation.
+**La mission complète reste non terminée : les quatre relevés restent indépendants, sans bâti assemblé et sans reconstruction validée des marches.** Aucun SKP natif n'est livré ; le DAE est fourni selon l'acceptation explicite de ce format par l'utilisateur.
 
-La branche ne doit pas être fusionnée comme une livraison finale conforme.
+L'archive `NOKOD_Projet_2_DAE_et_5_visualisations.zip` contient les deux DAE, le PDF, les cinq images, la notice et les contrôles utiles. Les originaux et toutes les sources de production restent conservés dans la branche `nokod/projet-2-reconstruction`, PR #1, sans fusion et sans modification de `projet 1` ou `prompts`.

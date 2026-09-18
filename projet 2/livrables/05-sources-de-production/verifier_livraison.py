@@ -28,7 +28,7 @@ for dim in [2,3]:
 pdf=fitz.open(OUT/'01-plan-2d/NOKOD_Projet_2_Releves_2D_CONTROLE.pdf');assert len(pdf)==4
 for page in pdf:
     assert abs(page.rect.width-420/25.4*72)<.01 and abs(page.rect.height-297/25.4*72)<.01
-pngs=sorted((OUT/'04-controles-et-notice/controle-geometrie').glob('*.png'));assert len(pngs)==5
+pngs=sorted((OUT/'04-controles-et-notice/controle-geometrie').glob('*_controle_technique.png'));assert len(pngs)==5
 for p in pngs:
     with Image.open(p) as im:assert im.size==(1600,1200)
 consultation=HERE/'consultation'
@@ -38,6 +38,9 @@ for p in photos:
 pages=sorted(consultation.glob('*.png'));assert len(pages)==24
 for p in pages:
     with Image.open(p) as im:im.verify()
-result=dict(originaux_conserves_identiques_git=checked,controles_exports=checks,pdf={'pages':4,'format_mm':[420,297],'echelles':[75,75,75,30]},photos_consultation_decodees=10,pages_consultation_decodees=24,vues_techniques=5,rendus_photorealistes_finaux=0,skp_presents=[str(p.relative_to(OUT)) for p in OUT.rglob('*.skp')],sketchup_execute=False,raccordement_physique_valide=False)
+renders=sorted((OUT/'03-rendus').glob('*.png'));assert len(renders)==5
+for p in renders:
+    with Image.open(p) as im:im.verify()
+result=dict(originaux_conserves_identiques_git=checked,controles_exports=checks,pdf={'pages':4,'format_mm':[420,297],'echelles':[75,75,75,30]},photos_consultation_decodees=10,pages_consultation_decodees=24,vues_techniques=5,visualisations_photographiques_interpretatives=5,rendus_directs_maquette=0,dae_presents=2,skp_presents=[str(p.relative_to(OUT)) for p in OUT.rglob('*.skp')],sketchup_execute=False,raccordement_physique_valide=False)
 (OUT/'04-controles-et-notice/verification-locale.json').write_text(json.dumps(result,indent=2,ensure_ascii=False))
 print('19 originaux identiques au commit de depart. 2 DXF rouverts, correspondance exacte aux donnees communes. PDF A3 et 5 controles techniques verifies. SKP et maquette de site non valides.')

@@ -29,3 +29,9 @@ python verifier_livraison.py
 Le fichier `cameras-controle.json` indique les positions, orientations, cadrages orthographiques et résolutions réellement utilisés. Aucun jeu de textures paysagères ni de matériaux finaux n'est livré, puisque la maquette de site n'est pas achevée.
 
 Pour SketchUp, suivre `04-controles-et-notice/NOTICE_JONATHAN.md`. Le générateur Ruby n'a pas été exécuté dans un moteur SketchUp pendant la production. Sa validation sur la version de Jonathan reste nécessaire.
+
+## DAE et visualisations — mise à jour
+
+Exécuter `blender -b --python exporter_collada.py`, puis `blender -b --python verifier_collada.py` avec Blender 4.5.3. Les deux exports COLLADA sont exécutés, contrairement au script Ruby non exécuté dans SketchUp. Les contours et les surfaces réimportées sont contrôlés dans `verification-collada.json`.
+
+Les cinq images sont issues de l'outil intégré ImageGen, une référence photographique par image. Les prompts exacts sont dans `prompts-visualisations.json`. La reproduction n'est pas déterministe ; aucun seed ni modèle/version interne n'est exposé. Pas de caméra 3D correspondante, pas d'agrandissement appliqué. Aucun fichier de texture supplémentaire n'est requis pour les DAE (matériaux unis de contrôle).

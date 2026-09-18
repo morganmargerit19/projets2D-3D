@@ -52,3 +52,9 @@ Les images techniques montrent volontairement les lignes de relevé au-dessus d'
 Le rattachement physique des relevés, le repère unique du site, le bâti, les ouvertures, les niveaux communs, les marches détaillées, les interfaces et l'affectation précise des matériaux restent à établir. Le plan de site 2D, la maquette paysagère 3D, les deux SKP contrôlés et les cinq rendus finaux demandés ne sont donc pas livrés comme conformes.
 
 La notice fournit une procédure de génération de **bases** SKP dans SketchUp Desktop. L'exécution de cette procédure seule ne termine pas les tâches de reconstruction encore manquantes.
+
+## Mise à jour DAE et images
+
+Deux COLLADA 1.4.1 exportés puis réimportés dans Blender 4.5.3. Voir `verification-collada.json` pour les coordonnées et surfaces après transfert et `controle-geometrie/COLLADA_*_reimporte.png` pour les vues inspectées. Géométrie 2D entièrement à Z=0, Z locaux conservés en 3D, trois surfaces éditables dans chaque fichier. Les surfaces interpolées ne constituent pas une restitution du terrain ou des marches. Les groupes restent séparés.
+
+Cinq visualisations générées depuis les photos et inspectées, voir `CONTROLE_VISUALISATIONS.md`. Les mentions antérieures « aucun rendu livré » décrivent l'état avant cette mise à jour. La vérification entre images et géométrie 3D demeure impossible : les images ne sont pas issues du modèle.

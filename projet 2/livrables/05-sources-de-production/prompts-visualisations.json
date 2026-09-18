@@ -1,0 +1,67 @@
+[
+  {
+    "name": "01_Vue_ensemble_jardin",
+    "source": "IMG_9308.HEIC",
+    "prompt": "Use case: lighting-weather / precise-object-edit. Asset: one photorealistic architectural landscape visualization of THIS EXISTING REAL SITE, NOT a new design. Input image is the edit target and authoritative geometry/material/vegetation reference. Produce a polished high-end architectural photograph, retaining the SAME camera framing and every permanent object and boundary. Keep the exact view of the beige single-storey wing, two windows and brown door, taller stone house on right and anthracite veranda with CLOSED white blinds. Keep basketball hoop, white urn, blue pots, existing gravel and lawn boundaries. Remove only loose items inside the foreground black planter, not the planter itself. Refine only photographic exposure, natural daylight softness, shadow detail, subtle color balance, realistic optical detail. Natural summer daylight, neutral colors, no dramatic sunset, no lush new vegetation, no invented furniture, no signage, text, logo or border. Preserve rough material textures rather than smoothing. Request long edge 3840 pixels if supported. Single image, not collage.",
+    "file": "03-rendus/01_Vue_ensemble_jardin.png",
+    "resolution": [
+      1448,
+      1086
+    ],
+    "upscaled": false,
+    "method": "ImageGen integre; interpretation des photographies; non issue de la maquette",
+    "camera_3d": null
+  },
+  {
+    "name": "02_Terrasse_repas",
+    "source": "IMG_9298.HEIC",
+    "prompt": "Use case: lighting-weather / precise-object-edit. Asset: one photorealistic architectural landscape visualization of THIS EXISTING REAL SITE, NOT a new design. Input image is the edit target and authoritative geometry/material/vegetation reference. Produce a polished high-end architectural photograph, retaining the SAME camera framing and every permanent object and boundary. Keep the exact dining patio, six mesh chairs red cushions, glass table, two FOLDED gray parasols, wood doors and windows, stone walls, gravel and lawn boundary. Same portrait composition, correct converging verticals only slightly. No added landscaping. Refine only photographic exposure, natural daylight softness, shadow detail, subtle color balance, realistic optical detail. Natural summer daylight, neutral colors, no dramatic sunset, no lush new vegetation, no invented furniture, no signage, text, logo or border. Preserve rough material textures rather than smoothing. Request long edge 3840 pixels if supported. Single image, not collage.",
+    "file": "03-rendus/02_Terrasse_repas.png",
+    "resolution": [
+      1086,
+      1449
+    ],
+    "upscaled": false,
+    "method": "ImageGen integre; interpretation des photographies; non issue de la maquette",
+    "camera_3d": null
+  },
+  {
+    "name": "03_Terrasse_cote_veranda",
+    "source": "IMG_9305.HEIC",
+    "prompt": "Use case: lighting-weather / precise-object-edit. Asset: one photorealistic architectural landscape visualization of THIS EXISTING REAL SITE, NOT a new design. Input image is the edit target and authoritative geometry/material/vegetation reference. Produce a polished high-end architectural photograph, retaining the SAME camera framing and every permanent object and boundary. Keep the exact landscape view of gray tiled platform, pale pink/white pebble bands, fine gray gravel, blue flowerpots, white urn, closed white veranda blinds on right, pool-cover edge left, basketball hoop and neighboring houses. No relocation. Refine only photographic exposure, natural daylight softness, shadow detail, subtle color balance, realistic optical detail. Natural summer daylight, neutral colors, no dramatic sunset, no lush new vegetation, no invented furniture, no signage, text, logo or border. Preserve rough material textures rather than smoothing. Request long edge 3840 pixels if supported. Single image, not collage.",
+    "file": "03-rendus/03_Terrasse_cote_veranda.png",
+    "resolution": [
+      1448,
+      1086
+    ],
+    "upscaled": false,
+    "method": "ImageGen integre; interpretation des photographies; non issue de la maquette",
+    "camera_3d": null
+  },
+  {
+    "name": "04_Escalier_seuil_maison",
+    "source": "IMG_9312.HEIC",
+    "prompt": "Use case: lighting-weather / precise-object-edit. Asset: one photorealistic architectural landscape visualization of THIS EXISTING REAL SITE, NOT a new design. Input image is the edit target and authoritative geometry/material/vegetation reference. Produce a polished high-end architectural photograph, retaining the SAME camera framing and every permanent object and boundary. Keep exact portrait view and ALL existing step positions, rough stone curved curb, gravel landings, brown door, gray granite surround, beige plaster and stone wall on right. Remove only photographer's fingertip at bottom, bucket, loose hoses. Keep small folding table. Architectural vertical correction very subtle, no new stairs or planting. Refine only photographic exposure, natural daylight softness, shadow detail, subtle color balance, realistic optical detail. Natural summer daylight, neutral colors, no dramatic sunset, no lush new vegetation, no invented furniture, no signage, text, logo or border. Preserve rough material textures rather than smoothing. Request long edge 3840 pixels if supported. Single image, not collage.",
+    "file": "03-rendus/04_Escalier_seuil_maison.png",
+    "resolution": [
+      1086,
+      1449
+    ],
+    "upscaled": false,
+    "method": "ImageGen integre; interpretation des photographies; non issue de la maquette",
+    "camera_3d": null
+  },
+  {
+    "name": "05_Escalier_veranda_vers_bassin",
+    "source": "IMG_9313.HEIC",
+    "prompt": "Use case: lighting-weather / precise-object-edit. Asset: one photorealistic architectural landscape visualization of THIS EXISTING REAL SITE, NOT a new design. Input image is the edit target and authoritative geometry/material/vegetation reference. Produce a polished high-end architectural photograph, retaining the SAME camera framing and every permanent object and boundary. Keep exact landscape view FROM INSIDE veranda looking up four broad rough granite stair treads towards gray tiled platform and existing low telescopic pool cover, flower pots and countryside. Remove only the two black bags on steps and loose dead leaves. Preserve every step and joint pattern as faithfully as possible, no extra step, no pool redesign. Refine only photographic exposure, natural daylight softness, shadow detail, subtle color balance, realistic optical detail. Natural summer daylight, neutral colors, no dramatic sunset, no lush new vegetation, no invented furniture, no signage, text, logo or border. Preserve rough material textures rather than smoothing. Request long edge 3840 pixels if supported. Single image, not collage.",
+    "file": "03-rendus/05_Escalier_veranda_vers_bassin.png",
+    "resolution": [
+      1448,
+      1086
+    ],
+    "upscaled": false,
+    "method": "ImageGen integre; interpretation des photographies; non issue de la maquette",
+    "camera_3d": null
+  }
+]
