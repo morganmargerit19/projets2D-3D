@@ -1,0 +1,75 @@
+[
+  {
+    "file": "01-plan-2d/NOKOD_Projet_2_Plan_2D.dae",
+    "unit_meter": 1,
+    "up_axis": "Z_UP",
+    "reimport": "Blender 4.5.3 COLLADA importer",
+    "sketchup_import_tested": false,
+    "zones": [
+      {
+        "zone": "Bordure maison",
+        "contour_max_roundtrip_error_m": 4.768517098963155e-06,
+        "source_points": 11,
+        "imported_points": 11
+      },
+      {
+        "zone": "Terrasse de droite",
+        "contour_max_roundtrip_error_m": 4.76837158203125e-07,
+        "source_points": 24,
+        "imported_points": 24,
+        "area_projected_reimported_m2": 37.88960334475678
+      },
+      {
+        "zone": "Terrasse de gauche",
+        "contour_max_roundtrip_error_m": 5.135693366178993e-06,
+        "source_points": 30,
+        "imported_points": 30,
+        "area_projected_reimported_m2": 46.17553092169521
+      },
+      {
+        "zone": "Zone escalier",
+        "contour_max_roundtrip_error_m": 1.9073486328125e-06,
+        "source_points": 20,
+        "imported_points": 20,
+        "area_projected_reimported_m2": 8.588033234565955
+      }
+    ],
+    "all_geometry_z_max": 0.0
+  },
+  {
+    "file": "02-modele-3d/NOKOD_Projet_2_Modele_3D.dae",
+    "unit_meter": 1,
+    "up_axis": "Z_UP",
+    "reimport": "Blender 4.5.3 COLLADA importer",
+    "sketchup_import_tested": false,
+    "zones": [
+      {
+        "zone": "Bordure maison",
+        "contour_max_roundtrip_error_m": 4.768610227469182e-06,
+        "source_points": 11,
+        "imported_points": 11
+      },
+      {
+        "zone": "Terrasse de droite",
+        "contour_max_roundtrip_error_m": 4.777675730550706e-07,
+        "source_points": 24,
+        "imported_points": 24,
+        "area_projected_reimported_m2": 37.88960334475678
+      },
+      {
+        "zone": "Terrasse de gauche",
+        "contour_max_roundtrip_error_m": 5.135693366178993e-06,
+        "source_points": 30,
+        "imported_points": 30,
+        "area_projected_reimported_m2": 46.17553092169521
+      },
+      {
+        "zone": "Zone escalier",
+        "contour_max_roundtrip_error_m": 1.9073486328125e-06,
+        "source_points": 20,
+        "imported_points": 20,
+        "area_projected_reimported_m2": 8.588033234565955
+      }
+    ]
+  }
+]

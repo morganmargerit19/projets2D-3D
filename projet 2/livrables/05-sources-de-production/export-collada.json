@@ -1,0 +1,14 @@
+[
+  {
+    "file": "01-plan-2d/NOKOD_Projet_2_Plan_2D.dae",
+    "vertices": 15762,
+    "mesh_objects": 246,
+    "native_sketchup_tested": false
+  },
+  {
+    "file": "02-modele-3d/NOKOD_Projet_2_Modele_3D.dae",
+    "vertices": 5248,
+    "mesh_objects": 92,
+    "native_sketchup_tested": false
+  }
+]

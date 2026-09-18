@@ -1,0 +1,154 @@
+X
+Y
+1,20m
+1,22m
+2,37m
+0,46m
+1,03m
+0,71m
+2,40m
+1,47m
+0,73m
+1,11m
+1,08m
+1,01m
+ÉCHELLE: 1:19 (Échelle adaptée)
+0
+20
+40
+80
+120
+160cm
+MARZET : ZONE ESCALIER : VUE PLAN
+15,68m (8,59m²)
+Créé le 05 sept. 2025
+Page 1
+
+MARZET : ZONE ESCALIER : VUE PLAN : CÔTÉS
+Créé le 05 sept. 2025
+Page 2
+DÉFINITIONS: (-0,02m), 4,57m, (-0,03m)
+Valeur Z du premier et du dernier point du côté précédent
+Longueur du côté
+Valeur Z du dernier point et du premier point du côté suivant
+Calque de base
+1
+ (0,00m), 1,20m, (-0,19m)
+2
+ (-0,19m), 1,22m, (-0,41m)
+3
+ (-0,41m), 0,08m, (-0,56m)
+4
+ (-0,56m), 2,37m, (-0,62m)
+5
+ (-0,62m), 0,46m, (-0,55m)
+6
+ (-0,55m), 0,11m, (-0,02m)
+7
+ (-0,02m), 1,03m, (+0,15m)
+8
+ (+0,15m), 0,71m, (+0,24m)
+9
+ (+0,24m), 0,03m, (+0,18m)
+10  (+0,18m), 2,40m, (+0,17m)
+11  (+0,17m), 1,47m, (+0,23m)
+12  (+0,23m), 0,73m, (+0,35m)
+13  (+0,35m), 0,18m, (+0,47m)
+14  (+0,47m), 1,11m, (+0,55m)
+15  (+0,55m), 0,13m, (+0,70m)
+16  (+0,70m), 1,08m, (+0,79m)
+17  (+0,79m), 0,10m, (+0,92m)
+18  (+0,92m), 1,01m, (+0,89m)
+19  (+0,89m), 0,27m, (0,00m)
+
+X
+Y
+Z
+1,21m
+1,24m
+2,37m
+0,54m
+1,04m
+2,40m
+1,47m
+0,74m
+1,11m
+1,09m
+01m
+0,93m
+MARZET : ZONE ESCALIER : VUE 3D
+17,14m
+Créé le 05 sept. 2025
+Page 3
+
+MARZET : ZONE ESCALIER : VUE 3D : CÔTÉS
+17,14m
+Créé le 05 sept. 2025
+Page 4
+DÉFINITIONS: (-0,02m), 4,57m, (-0,03m)
+Valeur Z du premier et du dernier point du côté précédent
+Longueur du côté
+Valeur Z du dernier point et du premier point du côté suivant
+Calque de base
+1
+ (0,00m), 1,21m, (-0,19m)
+2
+ (-0,19m), 1,24m, (-0,41m)
+3
+ (-0,41m), 0,17m, (-0,56m)
+4
+ (-0,56m), 2,37m, (-0,62m)
+5
+ (-0,62m), 0,47m, (-0,55m)
+6
+ (-0,55m), 0,54m, (-0,02m)
+7
+ (-0,02m), 1,04m, (+0,15m)
+8
+ (+0,15m), 0,71m, (+0,24m)
+9
+ (+0,24m), 0,07m, (+0,18m)
+10  (+0,18m), 2,40m, (+0,17m)
+11  (+0,17m), 1,47m, (+0,23m)
+12  (+0,23m), 0,74m, (+0,35m)
+13  (+0,35m), 0,21m, (+0,47m)
+14  (+0,47m), 1,11m, (+0,55m)
+15  (+0,55m), 0,20m, (+0,70m)
+16  (+0,70m), 1,09m, (+0,79m)
+17  (+0,79m), 0,16m, (+0,92m)
+18  (+0,92m), 1,01m, (+0,89m)
+19  (+0,89m), 0,93m, (0,00m)
+
+-0,60m
+-0,50m
+-0,40m
+-0,30m
+-0,20m
+-0,10m
+0,00m
+0,10m
+0,20m
+0,20m
+0,30m
+0,40m
+0,50m
+0,60m
+0,70m
+0,80m
+0,90m
+ÉCHELLE: 1:19 (Échelle adaptée)
+0
+20
+40
+80
+120
+160cm
+MARZET : ZONE ESCALIER : VUE CONTOUR
+10,85m² (5,11m³)
+Créé le 05 sept. 2025
+Page 5
+
+MARZET : ZONE ESCALIER : VUE SURFACE
+10,85m² (5,11m³)
+Créé le 05 sept. 2025
+Page 6

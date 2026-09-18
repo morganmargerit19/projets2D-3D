@@ -1,0 +1,97 @@
+[
+  {
+    "name": "01_Vue_eclatee_NON_IMPLANTATION",
+    "position": [
+      26.917739868164062,
+      -13.882795333862305,
+      44.119998931884766
+    ],
+    "rotation_euler": [
+      0.5476211309432983,
+      4.971054679003828e-08,
+      0.46364766359329224
+    ],
+    "orthographic_scale": 60.991329193115234,
+    "resolution": [
+      1600,
+      1200
+    ],
+    "type": "controle technique non photorealiste"
+  },
+  {
+    "name": "02_Bordure maison",
+    "position": [
+      15.508611679077148,
+      -19.711997985839844,
+      15.704999923706055
+    ],
+    "rotation_euler": [
+      0.8449189066886902,
+      -5.993719298658107e-08,
+      0.5880025625228882
+    ],
+    "orthographic_scale": 16.3529109954834,
+    "resolution": [
+      1600,
+      1200
+    ],
+    "type": "controle technique non photorealiste"
+  },
+  {
+    "name": "03_Terrasse de droite",
+    "position": [
+      34.5091552734375,
+      -18.292007446289062,
+      16.014999389648438
+    ],
+    "rotation_euler": [
+      0.8449192047119141,
+      1.775116942326349e-08,
+      0.5880028009414673
+    ],
+    "orthographic_scale": 13.471359252929688,
+    "resolution": [
+      1600,
+      1200
+    ],
+    "type": "controle technique non photorealiste"
+  },
+  {
+    "name": "04_Terrasse de gauche",
+    "position": [
+      16.84244155883789,
+      9.631889343261719,
+      15.680000305175781
+    ],
+    "rotation_euler": [
+      0.844918966293335,
+      -9.22378831091919e-08,
+      0.5880026817321777
+    ],
+    "orthographic_scale": 21.04754066467285,
+    "resolution": [
+      1600,
+      1200
+    ],
+    "type": "controle technique non photorealiste"
+  },
+  {
+    "name": "05_Zone escalier",
+    "position": [
+      37.08837127685547,
+      6.146692276000977,
+      16.149999618530273
+    ],
+    "rotation_euler": [
+      0.844918966293335,
+      -9.22378831091919e-08,
+      0.5880026817321777
+    ],
+    "orthographic_scale": 7.780473709106445,
+    "resolution": [
+      1600,
+      1200
+    ],
+    "type": "controle technique non photorealiste"
+  }
+]

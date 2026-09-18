@@ -1,0 +1,29 @@
+{
+  "fichier": "/workspace/scratch/6143a7986c1a/repo/projet 2/livrables/02-modele-3d/NOKOD_Projet_2_Releves_NON_RACCORDES.blend",
+  "reouverture_blender": true,
+  "controle_sommets": [
+    {
+      "releve": "Bordure maison",
+      "sommets": 11,
+      "ecart_serialisation_m": 4.6469993186804004e-07
+    },
+    {
+      "releve": "Terrasse de droite",
+      "sommets": 24,
+      "ecart_serialisation_m": 8.347230995298105e-07
+    },
+    {
+      "releve": "Terrasse de gauche",
+      "sommets": 30,
+      "ecart_serialisation_m": 1.0095105835716822e-06
+    },
+    {
+      "releve": "Zone escalier",
+      "sommets": 20,
+      "ecart_serialisation_m": 9.562253922013042e-07
+    }
+  ],
+  "cameras": 5,
+  "surfaces_interpolees_masquees": true,
+  "sketchup_verifie": false
+}

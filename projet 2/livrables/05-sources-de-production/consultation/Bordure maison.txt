@@ -1,0 +1,119 @@
+X
+Y
+2,86m
+2,19m
+3,83m
+1,60m
+4,56m
+3,91m
+1,31m
+ÉCHELLE: 1:44,7 (Échelle adaptée)
+0
+0,5
+1
+2
+3
+4m
+MARZET : BORDURE MAISON : VUE PLAN
+20,78m
+Créé le 05 sept. 2025
+Page 1
+
+MARZET : BORDURE MAISON : VUE PLAN : CÔTÉS
+Créé le 05 sept. 2025
+Page 2
+DÉFINITIONS: (-0,02m), 4,57m, (-0,03m)
+Valeur Z du premier et du dernier point du côté précédent
+Longueur du côté
+Valeur Z du dernier point et du premier point du côté suivant
+Calque de base
+1
+ (0,00m), 2,86m, (-0,09m)
+2
+ (-0,09m), 0,00m, (-0,09m)
+3
+ (-0,09m), 0,00m, (-0,09m)
+4
+ (-0,09m), 2,19m, (-0,22m)
+5
+ (-0,22m), 3,83m, (-0,40m)
+6
+ (-0,40m), 1,60m, (-0,46m)
+7
+ (-0,46m), 4,56m, (-0,50m)
+8
+ (-0,50m), 3,91m, (-0,59m)
+9
+ (-0,59m), 1,31m, (-0,27m)
+10  (-0,27m), 0,53m, (-0,34m)
+
+X
+Y
+Z
+2,86m
+2,20m
+3,83m
+1,60m
+4,56m
+3,91m
+MARZET : BORDURE MAISON : VUE 3D
+20,84m
+Créé le 05 sept. 2025
+Page 3
+
+MARZET : BORDURE MAISON : VUE 3D : CÔTÉS
+20,84m
+Créé le 05 sept. 2025
+Page 4
+DÉFINITIONS: (-0,02m), 4,57m, (-0,03m)
+Valeur Z du premier et du dernier point du côté précédent
+Longueur du côté
+Valeur Z du dernier point et du premier point du côté suivant
+Calque de base
+1
+ (0,00m), 2,86m, (-0,09m)
+2
+ (-0,09m), 0,00m, (-0,09m)
+3
+ (-0,09m), 0,00m, (-0,09m)
+4
+ (-0,09m), 2,20m, (-0,22m)
+5
+ (-0,22m), 3,83m, (-0,40m)
+6
+ (-0,40m), 1,60m, (-0,46m)
+7
+ (-0,46m), 4,56m, (-0,50m)
+8
+ (-0,50m), 3,91m, (-0,59m)
+9
+ (-0,59m), 1,35m, (-0,27m)
+10  (-0,27m), 0,53m, (-0,34m)
+
+-0,55m
+-0,50m
+-0,45m
+-0,40m
+-0,35m
+-0,30m
+-0,25m
+-0,20m
+-0,15m
+-0,10m
+-0,05m
+ÉCHELLE: 1:44,7 (Échelle adaptée)
+0
+0,5
+1
+2
+3
+4m
+MARZET : BORDURE MAISON : VUE CONTOUR
+50,17m² (14,91m³)
+Créé le 05 sept. 2025
+Page 5
+
+MARZET : BORDURE MAISON : VUE SURFACE
+50,17m² (14,91m³)
+Créé le 05 sept. 2025
+Page 6
